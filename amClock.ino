@@ -124,8 +124,8 @@ void setup()
     delay(TEST_DELAY);
     }
   */
-  S.init();
-  S.update();
+    S.init();
+    S.update();
   /*
     for(k = 15; k >= 4; k--) {
     D.setBrightness(k);
@@ -134,14 +134,14 @@ void setup()
     }
     //  }
   */
-  D.setBrightness(0x08);
-  _time = millis();
-#ifdef __DEBUG__
-  {
-    uint8_t _D[4];
     D.setBrightness(0x08);
-    for (int i = 0; i < 60; ++i)
+    _time = millis();
+#ifdef __DEBUG__
     {
+      uint8_t _D[4];
+      D.setBrightness(0x08);
+      for (int i = 0; i < 60; ++i)
+      {
       // _D[0]=0xff;
       // _D[1]=0xff;
       // _D[2]=0xff;
@@ -150,48 +150,48 @@ void setup()
       // _D[1]=F.Clock.back[0];
       // _D[2]=F.Clock.back[1];
       // _D[3]=F.blank;
-      _D[0]=F.blank;
-      _D[1]=F.blank;
-      _D[2]=F.blank;
-      _D[3]=F.blank;
-      D.print(_D);
-      if(i%2==0)_D[1]=~F.Clock.second[(i%4)*2+0];
-      if(i%2==0)_D[2]=~F.Clock.second[(i%4)*2+1];
+        _D[0]=F.blank;
+        _D[1]=F.blank;
+        _D[2]=F.blank;
+        _D[3]=F.blank;
+        D.print(_D);
+        if(i%2==0)_D[1]=~F.Clock.second[(i%4)*2+0];
+        if(i%2==0)_D[2]=~F.Clock.second[(i%4)*2+1];
       // if(i%2==0)_D[0]=F.Sensor.Humidity.sign[1];
       // if(i%2==0)_D[1]=F.Sensor.Humidity.sign[0];
       // if(i%2==0)_D[2]=F.Sensor.Humidity.sign[1];
       // if(i%2==0)_D[3]=F.Sensor.Humidity.sign[0];
-      D.print(_D);
+        D.print(_D);
+      }
     }
-  }
 #endif
-  _Second = Second;
-  MachineStart();
-}
+    _Second = Second;
+    MachineStart();
+  }
 
-void loop()
-{
-  getTime();
-  Button.tick();
-  if ((millis() - _time) > 240) {
-    _time = millis();
-    if(D.getFrameCounter()==0){
-     S.update();
-     {
-       while(_Second==Second){
-         getTime();
-         delay(1);
+  void loop()
+  {
+    getTime();
+    Button.tick();
+    if ((millis() - _time) > 240) {
+      _time = millis();
+      if(D.getFrameCounter()==0){
+       S.update();
+       {
+         while(_Second==Second){
+           getTime();
+           delay(1);
+         }
+         _Second = Second;
        }
-       _Second = Second;
-     }
-   } 
-  D.update();
+     } 
+     D.update();
+   }
+   delay(10);
  }
- delay(10);
-}
 
-bool _inHour(tHHMM begin, tHHMM end, tHHMM v)
-{
+ bool _inHour(tHHMM begin, tHHMM end, tHHMM v)
+ {
   // 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
   // 23 24 0 1 2 3 4 5 6 7
   bool f = false;
@@ -235,7 +235,7 @@ bool _inTime(tHHMM begin, tHHMM end, tHHMM v)
     }
     return true; // [16:40.. [17:--,0:--,6:--] ..7:40)
   } else
-    return false;
+  return false;
 };
 
 /* MACHINE */
@@ -276,8 +276,8 @@ void setDefaultState() {
   }
 // _defaultState = DeepNightClock;
 #ifdef __DEBUG_F__
-Serial.print((unsigned long)_defaultState);
-Serial.println(" ]");
+  Serial.print((unsigned long)_defaultState);
+  Serial.println(" ]");
 #endif
 };
 
@@ -474,7 +474,6 @@ void update() {
     }
   };
   _c++;
-  // tictac();
 };
 
 // void Scroller(){
@@ -576,7 +575,7 @@ void switchToClockFace(){
   clearStates();
   if(_c==0){
     #ifdef __DEBUG__
-      if (_c == 0)Serial.print("switchToClockFace ");
+    if (_c == 0)Serial.print("switchToClockFace ");
     #endif    
     _onClick=nextState;
     _onDoubleClick=_fallBack;
@@ -807,76 +806,76 @@ void NightClock() {
     addState(_defaultState,0, fxCut);
     }
   */
-  if (((Hour == Settings.Day.Hour) && (Minute == Settings.Day.Minute)) && (Second == 30)) {
-    clearStates();
-    addState(ClockSunrise, 1, fxUp);
-    addState(DaylightClock, 0, fxUp);
-  }
-};
-
-void DaylightClock() {
-  if (_c == 0) {
-#ifdef __DEBUG__
-    Serial.println(F("DaylightClock"));
-#endif
-    clearStates();
-    D.setBrightness(0x0f);
-    // _defaultState = DaylightClock;
-    _onClick = cycleOneClick;
-    _onDoubleClick = cycleTwoClick;
-    _onPress = _fallBack;
-    ClockHHMM();
-  };
-  if (Second == 55) {
-    S.update();
-    clearStates();
-    if(Minute==59){
-      addState(ClockMMSS,  6, fxMixRight);
-      cyclePopupInnerCondiotions();
-      addState(ClockHHMM,  8, fxDown);
-    } else {
-      if(Minute%5==0){
-        addState(ClockHHMM,    6, fxCut);
-        addState(ClockDDWD,    3, fxRight);
-        addState(ClockWeek,    4, fxDown);
-        addState(ClockHHMM,    1, fxDown);
-      }
-      if(Minute%5==1){
-        addState(ClockHHMM,    6, fxCut);
-        addState(ShowCO2,      3, fxUp);
-        addState(ClockHHMM,    1, fxDown);
-      }
-      if(Minute%5==2){
-        addState(ClockHHMM,    6, fxCut);
-        addState(ClockMMSS,    6, fxMixRight);
-        addState(ShowTemp,     2, fxUp);
-        addState(ClockHHMM,    1, fxLeft);
-      }
-      if(Minute%5==3){
-        addState(ClockHHMM,    6, fxCut);
-        addState(ClockMMSS,    6, fxMixRight);
-        addState(ShowHumidity, 2, fxRight);
-        addState(ClockHHMM,    1, fxRight);
-      }
-      if(Minute%5==4){
-        addState(ClockHHMM,    6, fxCut);
-        addState(ClockMMSS,    6, fxMixRight);
-        addState(ShowPressure, 2, fxUp);
-        addState(ClockHHMM,    1, fxDown);
-      }
+    if (((Hour == Settings.Day.Hour) && (Minute == Settings.Day.Minute)) && (Second == 30)) {
+      clearStates();
+      addState(ClockSunrise, 1, fxUp);
+      addState(DaylightClock, 0, fxUp);
     }
+  };
+
+  void DaylightClock() {
+    if (_c == 0) {
+#ifdef __DEBUG__
+      Serial.println(F("DaylightClock"));
+#endif
+      clearStates();
+      D.setBrightness(0x0f);
+    // _defaultState = DaylightClock;
+      _onClick = cycleOneClick;
+      _onDoubleClick = cycleTwoClick;
+      _onPress = _fallBack;
+      ClockHHMM();
+    };
+    if (Second == 55) {
+      S.update();
+      clearStates();
+      if(Minute==59){
+        addState(ClockMMSS,  6, fxMixRight);
+        cyclePopupInnerCondiotions();
+        addState(ClockHHMM,  8, fxDown);
+      } else {
+        if(Minute%5==0){
+          addState(ClockHHMM,    6, fxCut);
+          addState(ClockDDWD,    3, fxRight);
+          addState(ClockWeek,    4, fxDown);
+          addState(ClockHHMM,    1, fxDown);
+        }
+        if(Minute%5==1){
+          addState(ClockHHMM,    6, fxCut);
+          addState(ShowCO2,      3, fxUp);
+          addState(ClockHHMM,    1, fxDown);
+        }
+        if(Minute%5==2){
+          addState(ClockHHMM,    6, fxCut);
+          addState(ClockMMSS,    6, fxMixRight);
+          addState(ShowTemp,     2, fxUp);
+          addState(ClockHHMM,    1, fxLeft);
+        }
+        if(Minute%5==3){
+          addState(ClockHHMM,    6, fxCut);
+          addState(ClockMMSS,    6, fxMixRight);
+          addState(ShowHumidity, 2, fxRight);
+          addState(ClockHHMM,    1, fxRight);
+        }
+        if(Minute%5==4){
+          addState(ClockHHMM,    6, fxCut);
+          addState(ClockMMSS,    6, fxMixRight);
+          addState(ShowPressure, 2, fxUp);
+          addState(ClockHHMM,    1, fxDown);
+        }
+      }
   // addState(ClockHHMM,    0, fxFadeOut);
   // addState(_fallBack,    0, fxCut);
-  } else {
-  if (((Hour == Settings.Night.Hour) && (Minute == Settings.Night.Minute)) && (Second == 30)) {
-    clearStates();
-    setDefaultState();
-    addState(ClockNONE,   1, fxFadeOut);
-    addState(ClockSunset, 1, fxCut);
-    addState(NightClock,  1, fxCut);
-  } else
-    ClockHHMM();
-  }  
+    } else {
+      if (((Hour == Settings.Night.Hour) && (Minute == Settings.Night.Minute)) && (Second == 30)) {
+        clearStates();
+        setDefaultState();
+        addState(ClockNONE,   1, fxFadeOut);
+        addState(ClockSunset, 1, fxCut);
+        addState(NightClock,  1, fxCut);
+      } else
+      ClockHHMM();
+    }  
 
 /*
   if (Second == 55) {
@@ -1078,26 +1077,6 @@ void DeepNightClock() {
   */
 
 
-  void tictac() {
-    if (++Second >= 60) {
-      Second = 0;
-      if (++Minute >= 60) {
-        Minute = 0;
-        if (++Hour >= 24) {
-          Hour = 0;
-          if (++DayofWeek >= 7) {
-            DayofWeek = 0;
-          } if (++Day > 31) {
-            Day = 0;
-            if (++Month >= 12) {
-              Month = 0;
-              ++Year;
-            }
-          }
-        }
-      }
-    }
-  }
-  char getInt(const char* string, int startIndex) {
-    return int(string[startIndex] - '0') * 10 + int(string[startIndex + 1]) - '0';
-  }
+char getInt(const char* string, int startIndex) {
+  return int(string[startIndex] - '0') * 10 + int(string[startIndex + 1]) - '0';
+}
