@@ -1,5 +1,5 @@
-#ifndef __settings__
-#define __settings__
+#ifndef __SETTINGS_H__
+#define __SETTINGS_H__
 
 /* PIN */
 #define CLK 2
