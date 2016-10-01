@@ -1,0 +1,1160 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"data",
+				"data-target"
+			],
+			[
+				"ta",
+				"data-target"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"data-",
+				"data-toggle"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"st",
+				"strip"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"Clock",
+				"ClockDDWD"
+			],
+			[
+				"Clo",
+				"ClockHHMM"
+			],
+			[
+				"Show",
+				"ShowCO2"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"prin",
+				"printTime"
+			],
+			[
+				"lo",
+				"LOW"
+			],
+			[
+				"H",
+				"HIGH"
+			],
+			[
+				"0x",
+				"0xff"
+			],
+			[
+				"_sta",
+				"_states"
+			],
+			[
+				"time",
+				"timeSync"
+			],
+			[
+				"ClockNo",
+				"ClockNONE"
+			],
+			[
+				"hol",
+				"holdState"
+			],
+			[
+				"ho",
+				"holdState"
+			],
+			[
+				"fx",
+				"fxCut"
+			],
+			[
+				"_on",
+				"_onDoubleClick"
+			],
+			[
+				"_DE",
+				"__DEBUG__"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"_tmi",
+				"_timeForUpdate"
+			],
+			[
+				"ClockSS_",
+				"ClockSS_RunningSeconds"
+			],
+			[
+				"Se",
+				"Settings"
+			],
+			[
+				"fxFa",
+				"fxFadeOut"
+			],
+			[
+				"ClockS",
+				"ClockSS_Seconds"
+			],
+			[
+				"fxF",
+				"fxFadeIn"
+			],
+			[
+				"cle",
+				"clearStates"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"B",
+				"B00000001"
+			],
+			[
+				"fxfa",
+				"fxFadeOut"
+			],
+			[
+				"Cl",
+				"ClockNOPE"
+			],
+			[
+				"ShowH",
+				"ShowHumidity"
+			],
+			[
+				"fxC",
+				"fxCut"
+			],
+			[
+				"Sho",
+				"ShowTemp"
+			],
+			[
+				"ClockDD",
+				"ClockDDWDMM"
+			],
+			[
+				"cyc",
+				"cycleNightClick"
+			],
+			[
+				"CLo",
+				"ClockHHMM"
+			],
+			[
+				"readco",
+				"_readCoreTemp"
+			],
+			[
+				"_read",
+				"_readCore"
+			],
+			[
+				"__DEBU",
+				"__DEBUG__"
+			],
+			[
+				"__DEBUG_",
+				"__DEBUG_F__"
+			],
+			[
+				"_DEBUG_",
+				"__DEBUG_F__"
+			],
+			[
+				"_de",
+				"_debug_time"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"Bli",
+				"ClockBlankBlink"
+			],
+			[
+				"se",
+				"setDefaultState"
+			],
+			[
+				"cy",
+				"cyclePopupInnerCondiotions"
+			],
+			[
+				"Set",
+				"Settings"
+			],
+			[
+				"_f",
+				"_flash"
+			],
+			[
+				"fxb",
+				"fxBHigh"
+			],
+			[
+				"fxB",
+				"fxBFlash"
+			],
+			[
+				"_b",
+				"_brightness"
+			],
+			[
+				"set",
+				"setBrightness"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"B0",
+				"B00000000"
+			],
+			[
+				"ClockD",
+				"ClockDDMM"
+			],
+			[
+				"HH",
+				"ClockHHMM"
+			],
+			[
+				"Co",
+				"CO2"
+			],
+			[
+				"sho",
+				"ShowCO2"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"Da",
+				"Day"
+			],
+			[
+				"prn",
+				"print"
+			],
+			[
+				"da",
+				"DayofWeek"
+			],
+			[
+				"Ni",
+				"DeepNightClock"
+			],
+			[
+				"cl",
+				"Clock"
+			],
+			[
+				"Bl",
+				"blank"
+			],
+			[
+				"_",
+				"_AB"
+			],
+			[
+				"Su",
+				"Sunrise"
+			],
+			[
+				"fxR",
+				"fxRight"
+			],
+			[
+				"C",
+				"ClockHHMM"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"id",
+				"ifndef"
+			],
+			[
+				"S",
+				"Serial"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"fall",
+				"_fallBack"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"on",
+				"onPress"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"fxL",
+				"fxLeft"
+			],
+			[
+				"_readB",
+				"_readBMP"
+			],
+			[
+				"Sen",
+				"Sensors"
+			],
+			[
+				"Li",
+				"sLight"
+			],
+			[
+				"Pre",
+				"sPressure"
+			],
+			[
+				"senso",
+				"Sensors"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"i",
+				"if	If Condition"
+			],
+			[
+				"las",
+				"lastValue"
+			],
+			[
+				"sh",
+				"sHistory"
+			],
+			[
+				"read",
+				"readDHT"
+			],
+			[
+				"sc",
+				"scrollRight"
+			],
+			[
+				"_state",
+				"_states"
+			],
+			[
+				"t",
+				"tb"
+			],
+			[
+				"mill",
+				"millis"
+			],
+			[
+				"sta",
+				"stateStruct"
+			],
+			[
+				"sS",
+				"sSun"
+			],
+			[
+				"bt",
+				"brightness"
+			],
+			[
+				"anima",
+				"animator"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"_scroll",
+				"_scrollerFX"
+			],
+			[
+				"_scr",
+				"_scrollerFX"
+			],
+			[
+				"fx_pi",
+				"fx_pingpong"
+			],
+			[
+				"_st",
+				"_scrollerCount"
+			],
+			[
+				"strc",
+				"strcpy"
+			],
+			[
+				"fx_lo",
+				"fx_long4"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"_sc",
+				"_scrollerCount"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"add",
+				"addState"
+			],
+			[
+				"_set",
+				"_setDefaultState"
+			],
+			[
+				"ref",
+				"setRefresh"
+			],
+			[
+				"_me",
+				"_menu"
+			],
+			[
+				"ed",
+				"editTime"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"_m",
+				"_menu"
+			],
+			[
+				"min",
+				"Minute"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"M",
+				"Minute"
+			],
+			[
+				"N",
+				"Night"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "amClock.ino",
+			"settings":
+			{
+				"buffer_size": 25333,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 2768,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "c",
+		"selected_items":
+		[
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"cpp",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"char",
+				"Character Table: Insert Unicode Character"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ru",
+				"Build With: Ruby"
+			],
+			[
+				"aj",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"print(7+24+4+3+5)",
+			"println(7+24+4+3+5)",
+			"writeln(7+24+4+3+5)",
+			"$.writeln(7+24+4+3+5);",
+			"super",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/amrok/Dropbox/Arduino/amClock"
+	],
+	"file_history":
+	[
+		"/C/Users/amrok/Dropbox/set-stage/css/set.css",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/amrok/Dropbox/set-stage/js/product-filter.js",
+		"/C/Users/amrok/Dropbox/set-stage/junior.html",
+		"/C/Users/amrok/Dropbox/set-stage/main.html",
+		"/C/Users/amrok/Dropbox/Arduino/DigisparkArduino-Win32/Digispark-Arduino-1.0.4/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.cpp",
+		"/C/Users/amrok/Dropbox/Arduino/DigisparkArduino-Win32/Digispark-Arduino-1.0.4/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.h",
+		"/C/Users/amrok/Dropbox/Arduino/ATTINY/neon/neon.ino",
+		"/C/Users/amrok/Dropbox/Arduino/ATTINY/led.ino",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/font.h",
+		"/C/Users/amrok/Documents/Arduino/extSens2/extSens2.ino",
+		"/C/Users/amrok/Documents/Arduino/display_robotdyn_test/display_robotdyn_test.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/FunPrintAll/FunPrintAll.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/src/SevenSegmentTM1637.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/src/SevenSegmentTM1637.h",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/src/SevenSegmentFun.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/arduino-tm1637-master/examples/FunPrintAll/FunPrintAll.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/src/SevenSegmentExtended.h",
+		"/C/Users/amrok/Documents/Arduino/ATTINY/led/led.ino",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/settings.h",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/sensors.h",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/sensors.cpp",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/display.h",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/display.cpp",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/sketch__4LED.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/OneButton-master/OneButton.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/OneButton-master/OneButton.cpp",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/clock.h",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/clock.cpp",
+		"/C/Users/amrok/Documents/Arduino/TEST/TEST.ino",
+		"/C/Users/amrok/Documents/Arduino/readme.txt",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/src/SevenSegmentFun.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/SerialPrint/SerialPrint.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/LowLevel/LowLevel.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/Basic/Basic.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/ExtScoreboard/ExtScoreboard.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/arduino-tm1637-master/examples/ExtClock/ExtClock.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/TM1637-master/TM1637Display.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/TM1637-master/TM1637Display.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD-Library-master/Adafruit_TFTLCD.h",
+		"/C/Users/amrok/Documents/Arduino/ATTINY/led.ino",
+		"/C/Users/amrok/Documents/Arduino/libraries/TFTLCD/examples/graphicstest/graphicstest.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/SPFD5408-master/examples/spfd5408_tftpaint/spfd5408_tftpaint.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/SPFD5408-master/SPFD5408_Adafruit_TFTLCD.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/SPFD5408-master/SPFD5408_TouchScreen.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD/examples/graphicstest/graphicstest.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD/examples/tftpaint/tftpaint.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD/TouchScreen.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD/TFTLCD.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD-Library-master/pin_magic.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/SPFD5408-master/pin_magic.h",
+		"/C/Users/amrok/Documents/Arduino/libraries/Adafruit_BMP085_Unified-master/Adafruit_BMP085_U.h",
+		"/C/Users/amrok/Documents/Arduino/libraries/Adafruit_Sensor-master/Adafruit_Sensor.h",
+		"/C/Users/amrok/Documents/Arduino/libraries/Adafruit_BMP085_Unified-master/Adafruit_BMP085_U.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/TFTLCD/TFTLCD.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/SPFD5408-master/SPFD5408_Adafruit_TFTLCD.cpp",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/TFTLCD/glcdfont.c",
+		"/C/Users/amrok/Documents/Arduino/libraries/MQ135_library/MQ135.h",
+		"/C/Users/amrok/Dropbox/Arduino/sketch__Pressure/sketch__Pressure.ino",
+		"/C/Users/amrok/Dropbox/Arduino/sketch__DHT/sketch__DHT.ino",
+		"/C/Users/amrok/Dropbox/Arduino/RTC/RTC.ino",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/RTClib-master/RTClib.h",
+		"/C/Users/amrok/Dropbox/Arduino/libraries/RTClib-master/RTClib.cpp",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/settings.cpp",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/sensors.c",
+		"/C/Users/amrok/Dropbox/Arduino/sensors.c",
+		"/C/Users/amrok/Documents/Arduino/clock.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/Adafruit_BMP085_Unified-master/examples/sensorapi/sensorapi.pde",
+		"/C/Users/amrok/Documents/Arduino/machine.cpp",
+		"/C/Users/amrok/AppData/Local/Temp/tmp2F5B.tmp.cpp",
+		"/C/Users/amrok/Documents/Arduino/machine.h",
+		"/C/Users/amrok/Dropbox/Arduino/machine.h",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/machine.h",
+		"/C/Users/amrok/Documents/Arduino/sketch__4LED/machine.cpp",
+		"/C/Users/amrok/Documents/Arduino/libraries/QueueArray/QueueArray.h",
+		"/C/Users/amrok/Documents/Arduino/clock.h",
+		"/C/Users/amrok/Documents/Arduino/clock.c",
+		"/C/Users/amrok/Documents/Arduino/main.cpp",
+		"/C/Users/amrok/Documents/Arduino/main-loop.cpp",
+		"/C/Users/amrok/Documents/Arduino/sensors.c",
+		"/C/Users/amrok/Documents/Arduino/font.h",
+		"/C/Users/amrok/Documents/Arduino/display.h",
+		"/C/Users/amrok/Documents/Arduino/display.cpp",
+		"/C/Users/amrok/Documents/Arduino/demo.c",
+		"/C/Users/amrok/Documents/2",
+		"/C/Users/amrok/Documents/1",
+		"/H/Projects/Studio Limon/@studiolimon/видео перевод титров/Ep 1 - Getting From Business Idea to Business Model.srt",
+		"/H/Projects/Studio Limon/@studiolimon/видео перевод титров/Ep 1 - Getting From Business Idea to Business Model.ANSI.srt",
+		"/H/АРХИВ/_Архив/! SITES/_old/(sites)/www.andry.ru/cgi-bin/cite/Bredbery.txt",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/messages/_form.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/assets/stylesheets/framework_and_overrides.css.scss",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/profiles/show.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/devise/registrations/_form.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/layouts/_navigation.html.erb",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/bootstrap-popover.sublime-snippet",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/bootstrap-tooltip.sublime-snippet",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/profiles/_form.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/devise/registrations/edit.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/layouts/_navigation_menu.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contacts/index.html.erb",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/bootstrap-data-tooltip.sublime-snippet",
+		"/C/Users/amrok/Documents/telegram-frontend/app/assets/stylesheets/style.css.scss",
+		"/C/Users/amrok/AppData/Roaming/Sublime Text 3/Packages/User/bootstrap.sublime-snippet",
+		"/C/Users/amrok/Downloads/Base/ALTNAMES.DBF",
+		"/C/Users/amrok/AppData/Local/Temp/Rar$DIa0.540/STREET.DBF",
+		"/C/Users/amrok/AppData/Local/Temp/Rar$DIa0.845/ALTNAMES.DBF",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contacts/_form.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contacts/_contact.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/assets/javascripts/application.js",
+		"/C/Users/amrok/Documents/telegram-frontend/app/assets/stylesheets/style.css",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/layouts/[dir",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/layouts/[shell_cmd",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/console/users/index.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/messages/show.pdf.prawn",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/pages/tarif.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/assets/javascripts/script.js",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/layouts/_oferta.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/console/messages/index.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/console/approvals/index.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/console/stopwords/index.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contact_lists/_contact_list.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contact_lists/new.html.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contacts/index.js.erb",
+		"/C/Users/amrok/Documents/telegram-frontend/app/views/contact_lists/show.js.erb",
+		"/C/Program Files (x86)/Steam/SteamApps/common/ksp-win-0-90-0/saves/2/zKACBACKUP20151104023418-persistent.sfs"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctrl\\+k",
+			"tooltip",
+			"disabled",
+			"hidden",
+			"carousel-example-generic",
+			"carou",
+			"logo",
+			"junior",
+			"aria-expanded=\"true\"",
+			"disabled",
+			"data-target",
+			"caret",
+			"argument",
+			"All",
+			"collapse",
+			"Photoresister_PIN",
+			"i+j",
+			"j)%3",
+			"0",
+			"uint8_t ",
+			"25",
+			"j)%",
+			"%3?",
+			"50",
+			"Blue",
+			"255",
+			"set",
+			"setBrightness",
+			"25",
+			"127",
+			"8",
+			"32",
+			"127",
+			"Serial",
+			"buf",
+			"scrollingText",
+			"repeats",
+			"\", ",
+			"scr",
+			"scrollingText",
+			"SevenSegmentFun",
+			"scrollingText",
+			"SevenSegmentTM1637",
+			"SevenSegmentExtended",
+			"SevenSegmentFun",
+			"scrollingText",
+			"lux",
+			"thisString",
+			"str",
+			"true",
+			"TM1637_DEBUG",
+			"WaterPIN",
+			"WetPIN",
+			"MQ7PIN",
+			"MQ2PIN",
+			"Thermister",
+			"\\n{4}",
+			"директор",
+			"if(Minute",
+			"if",
+			"fxRight",
+			"ShowHumidity",
+			"ClockHHMM",
+			"clockhhmm",
+			"Minute%10",
+			"ClockNOPE",
+			"ClockHHMM",
+			"fxFadeIn",
+			"set",
+			"encodeDigit",
+			"double",
+			"int",
+			"uint8_t",
+			"SevenSegmentTM1637",
+			"SevenSegmentExtended",
+			"PIN_",
+			"B10000000",
+			"~F",
+			"D.",
+			"if(i%2==0)",
+			"F.blank",
+			"Clock",
+			"LightPIN",
+			"display",
+			"Pin",
+			"ThermisterPIN",
+			"LED",
+			"1500",
+			"serial",
+			"RED",
+			"pinMode",
+			"500",
+			"\n  ",
+			"500",
+			"LOW",
+			"HIGH",
+			"13",
+			"F.blank",
+			"Sensor.Humidity.sign",
+			"Tick",
+			"println",
+			"12",
+			"55",
+			"_yp",
+			"YP",
+			"static",
+			"RED",
+			"mode",
+			"BTN",
+			"getFrameCounter",
+			"syn",
+			"fxCut",
+			"fxLeft",
+			"ClockNOPE",
+			"cycleNightClick",
+			"update",
+			"_onClick",
+			"_onDoubleClick",
+			"NightClock",
+			"_onDoubleClick",
+			"switchToClockFace",
+			"_onDoubleClick",
+			"holdState",
+			"ClockCWS",
+			"ClockSS_Seconds",
+			"ClockQQSS",
+			"ClockSSQQ",
+			"ClockQQSS"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n\\n",
+			"mix$1",
+			"fxMix$1",
+			" __DEBUG__",
+			"ClockNOPE",
+			"BUTTON",
+			"BLUE",
+			"GREEN",
+			"RED",
+			"BLUE",
+			"GREEN",
+			"#ifdef _DEBUG_",
+			"#ifndef _DEBUG_\n$1\n#endif",
+			"D.blink(1,F.dot);",
+			"fx$1",
+			"callbackFunction $1",
+			"$1",
+			"",
+			"uint8_t",
+			">>",
+			"<<",
+			"←←",
+			"B$1$8$7$6$5$4$3$2",
+			"B$1$8$7$6$5$4$3$1",
+			"B$1$8$7$6$5$4$3$2",
+			"size()",
+			"animator",
+			"DChar",
+			"D.",
+			"]=\\n{",
+			"timerINT",
+			"data-placement=\"top\"",
+			"'data-placement' => 'top'",
+			"'data-placement' => 'bottom'",
+			"  ",
+			"class => 'form-control'",
+			"{'popover-id' =>",
+			"{popover-id =>",
+			"",
+			"$1:$2",
+			"$1:$2-$3:$4 ",
+			"Регион",
+			"",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "amClock.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "amClock.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\amrok\\Dropbox\\Arduino\\extSens.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
