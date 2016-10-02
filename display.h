@@ -114,12 +114,12 @@ void display(uint8_t f);
 void print(uint8_t D[4]);
 void drawToBuffer();
 // String Scrolling
-#define fx_loop     2 // [   a]→[abcd]→[fghi]→[i   ] [    ]→[   a]
-#define fx_short    1 // [abcd]efghi [fghi] [abcd]
-#define fx_long     3 // [abcd]→[fghi]→[i   ]→[    ] [abcd]
-#define fx_longback 4 // [abcd]→[i   ]→[   a]→[abcd]
-#define fx_pingpong 5 // [abcd]→[bcde]→[fghi]←[efgh]←[abcd]
-#define fx_pongping 6 // ...           [fghi]←[efgh]←[abcd]
+#define fx_loop         2 // [   a]→[abcd]→[fghi]→[i   ] [    ]→[   a]
+#define fx_short        1 // [abcd]efghi [fghi] [abcd]
+#define fx_long         3 // [abcd]→[fghi]→[i   ]→[    ] [abcd]
+#define fx_longback     4 // [abcd]→[i   ]→[   a]→[abcd]
+#define fx_pingpong     5 // [abcd]→[bcde]→[fghi]←[efgh]←[abcd]
+#define fx_pongping     6 // ...           [fghi]←[efgh]←[abcd]
 #define fx_longpingpong 7 // [   a]→[abcd]→[fghi]←[i   ]
 // scroller 1/4 updater
 // void scroller();

@@ -2,8 +2,8 @@
 #define __SETTINGS_H__
 
 /* PIN */
-#define CLK 2
-#define DIO 3
+#define CLK 2 // SCL
+#define DIO 3 // SDA
 #define BTN 8
 
 /* Settings */

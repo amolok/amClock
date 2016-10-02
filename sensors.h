@@ -71,7 +71,7 @@ private:
   void _readCore();
   double _readCoreTemp();
 public:
-  sHistory CoreTemp, Temp, Humidity, Pressure, TempBMP, CO2; // Light;
+  sHistory CoreTemp, Temp, Humidity, Pressure, TempBMP, CO2; // CO; Light;
   void update();
   void init();
   // [-12°] [-1°C] [ 0°C] [ 1°C] [12°C] [23°C]
@@ -82,8 +82,10 @@ public:
   void showHumidity();
   // [750m]
   void showPressure();
+  // TODO: [CO2 ]
   // [1200]
   void showCO2();
+  // TODO: [CO  ]
 };
 
 #endif

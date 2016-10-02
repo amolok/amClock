@@ -108,4 +108,4 @@ MM:30 состояние среды;
 хлопок:
 
 ===Элементная база===
- * 
+ * Rtc ( часы реального времени ) dip-ds1307 модуль ( с батареей ) -- https://ru.aliexpress.com/store/product/RTC-Real-Time-Clock-DS1307-module-with-battery/1950989_32530897478.html
